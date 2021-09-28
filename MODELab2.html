@@ -33,6 +33,12 @@
           font-size: 3.5rem;
         }
       }
+	  
+	  div.wrapper {
+		overflow:hidden;
+		overflow-y: scroll;
+		height: 500px;
+	  }
     </style>
 
     
@@ -70,111 +76,113 @@
 	<hr>
 	
 	<p class="lead">
-		<table>
-		  <tr>
-			<th>Tool Name:</th>
-			<td>Android Studio 4.2.2</td>
-			<td></td>
-		  </tr>
-		  <tr>
-			<th>Platform:</th>
-			<td colspan="2">Android</td>
-		  </tr>
-		  <tr>
-			<th colspan="3">App Dev Type</th>
-		  </tr>
-		  <tr>
-			  <th>a. Type:</th><td colspan="2">Native</td>
-		  </tr>
-			  <th>b. Advantages:</th><td colspan="2">Security, OS Integration & Performance</td>
-		  </tr>
-		  <tr>  
-			  <th>c. Disadvantages</th><td colspan="2">Smaller audience, Potentially higher cost and time of development</td>
-		  <tr>
-			<th>Website:</th>
-			<td colspan="2"><a href="https://developer.android.com/studio/" class="text-white">Android Studio</href></td>
-		  </tr>
-		  <tr>
-			<th>Developers:</th>
-			<td colspan="2">Google</td>
-		  </tr>
-		  <tr>
-			<th>Official Stable Release:</th>
-			<td colspan="2">Dec 2014</td>
-		  </tr>
-		  <tr>
-			<th>License:</th>
-			<td colspan="2">Apache License Freeware</td>
-		  </tr>
-		  <tr>
-			<th>Price:</th>
-			<td colspan="2">Free</td>
-		  </tr>
-		  <tr>
-			<th>Languages:</th>
-			<td colspan="2">Kotlin, Java, C++</td>
-		  </tr>
-		  <tr>
-			<th>Features:</th>
-			<td colspan="2">Lint tools to catch issues, App-signing, Layout editor & template wizards, Google Cloud integration, Gradle based build support</td>
-		  </tr>
-		  <tr>
-			<th>Debugger:</th>
-			<td colspan="2">True - ADB</td>
-		  </tr>
-		  <tr>
-			<th>Built-In Emulator:</th>
-			<td colspan="2">Yes - AVD</td>
-		  </tr>
-		  <tr>
-			<th>Hardware Recommendations:</th>
-			<td colspan="2">Win 7+/MacOS X 10.10+/GNOME or KDE Debian, 4GB Storage space, 8GB RAM, JDK 8, 1280x800 resolution</td>
-		  </tr>
-		  <tr>
-			<th>IDE:</th>
-			<td colspan="2">Android Studio IDE - Built on JetBrains' IntelliJ IDEA</td>
-		  </tr>
-		  <tr>
-			<th>Software Installed:</th>
-			<td colspan="2">IDE, Android SDK, Emulator System Image</td>
-		  </tr>
-		  <tr>
-			<th>Advantages:</th>
-			<td colspan="2">Win/Mac/Linux Cross platform, Automated Code Signing, Fast Iteration and Emulation, Hot Reload to test changes without length builds</td>
-		  </tr>
-		  <tr>
-			<th>Disadvantages:</th>
-			<td colspan="2">Long Initial build times, Long Indexing on Project Opening, RAM heavy</td>
-		  </tr>
-		  <tr>
-			<th>Language Availability:</th>
-			<td colspan="2">Many</td>
-		  </tr>
-		  <tr>
-			<th>Licensing Fees for App Sale:</th>
-			<td colspan="2">$25 one-time fee to publish apps through Google. Google Play Store has a 15-30% "Service Fee" for all app sales</td>
-		  </tr>
-		  <tr>
-			<th>Market Share:</th>
-			<td colspan="2"></td>
-		  </tr>
-		  <tr>
-			<th>Number of Apps Available:</th>
-			<td colspan="2">3482452</td>
-		  </tr>
-		  <tr>
-			<th>Downloads:</th>
-			<td colspan="2">108.5 billion downloads</td>
-		  </tr>
-		  <tr>
-			<th>CameraX:</th>
-			<td colspan="2">A new backward-compatible Jetpack library to develop without needing to manage differences between devices.</td>
-		  </tr>
-		  <tr>
-			<th>Android TV:</th>
-			<td colspan="2">Easily supports development of Android TV Applications and modification of other Android Apps to TV.</td>
-		  </tr>
-		</table> 
+		<div>
+			<table>
+			  <tr>
+				<th>Tool Name:</th>
+				<td>Android Studio 4.2.2</td>
+				<td></td>
+			  </tr>
+			  <tr>
+				<th>Platform:</th>
+				<td colspan="2">Android</td>
+			  </tr>
+			  <tr>
+				<th colspan="3">App Dev Type</th>
+			  </tr>
+			  <tr>
+				  <th>a. Type:</th><td colspan="2">Native</td>
+			  </tr>
+				  <th>b. Advantages:</th><td colspan="2">Security, OS Integration & Performance</td>
+			  </tr>
+			  <tr>  
+				  <th>c. Disadvantages</th><td colspan="2">Smaller audience, Potentially higher cost and time of development</td>
+			  <tr>
+				<th>Website:</th>
+				<td colspan="2"><a href="https://developer.android.com/studio/" class="text-white">Android Studio</href></td>
+			  </tr>
+			  <tr>
+				<th>Developers:</th>
+				<td colspan="2">Google</td>
+			  </tr>
+			  <tr>
+				<th>Official Stable Release:</th>
+				<td colspan="2">Dec 2014</td>
+			  </tr>
+			  <tr>
+				<th>License:</th>
+				<td colspan="2">Apache License Freeware</td>
+			  </tr>
+			  <tr>
+				<th>Price:</th>
+				<td colspan="2">Free</td>
+			  </tr>
+			  <tr>
+				<th>Languages:</th>
+				<td colspan="2">Kotlin, Java, C++</td>
+			  </tr>
+			  <tr>
+				<th>Features:</th>
+				<td colspan="2">Lint tools to catch issues, App-signing, Layout editor & template wizards, Google Cloud integration, Gradle based build support</td>
+			  </tr>
+			  <tr>
+				<th>Debugger:</th>
+				<td colspan="2">True - ADB</td>
+			  </tr>
+			  <tr>
+				<th>Built-In Emulator:</th>
+				<td colspan="2">Yes - AVD</td>
+			  </tr>
+			  <tr>
+				<th>Hardware Recommendations:</th>
+				<td colspan="2">Win 7+/MacOS X 10.10+/GNOME or KDE Debian, 4GB Storage space, 8GB RAM, JDK 8, 1280x800 resolution</td>
+			  </tr>
+			  <tr>
+				<th>IDE:</th>
+				<td colspan="2">Android Studio IDE - Built on JetBrains' IntelliJ IDEA</td>
+			  </tr>
+			  <tr>
+				<th>Software Installed:</th>
+				<td colspan="2">IDE, Android SDK, Emulator System Image</td>
+			  </tr>
+			  <tr>
+				<th>Advantages:</th>
+				<td colspan="2">Win/Mac/Linux Cross platform, Automated Code Signing, Fast Iteration and Emulation, Hot Reload to test changes without length builds</td>
+			  </tr>
+			  <tr>
+				<th>Disadvantages:</th>
+				<td colspan="2">Long Initial build times, Long Indexing on Project Opening, RAM heavy</td>
+			  </tr>
+			  <tr>
+				<th>Language Availability:</th>
+				<td colspan="2">Many</td>
+			  </tr>
+			  <tr>
+				<th>Licensing Fees for App Sale:</th>
+				<td colspan="2">$25 one-time fee to publish apps through Google. Google Play Store has a 15-30% "Service Fee" for all app sales</td>
+			  </tr>
+			  <tr>
+				<th>Market Share:</th>
+				<td colspan="2"></td>
+			  </tr>
+			  <tr>
+				<th>Number of Apps Available:</th>
+				<td colspan="2">3482452</td>
+			  </tr>
+			  <tr>
+				<th>Downloads:</th>
+				<td colspan="2">108.5 billion downloads</td>
+			  </tr>
+			  <tr>
+				<th>CameraX:</th>
+				<td colspan="2">A new backward-compatible Jetpack library to develop without needing to manage differences between devices.</td>
+			  </tr>
+			  <tr>
+				<th>Android TV:</th>
+				<td colspan="2">Easily supports development of Android TV Applications and modification of other Android Apps to TV.</td>
+			  </tr>
+			</table> 
+		</div>
 	</p>
   </main>
 
